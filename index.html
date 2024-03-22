@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeeshan | Portfolio-Website</title>
+    <!-- ANIMATION CDN SOURCES  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- importing google font POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/Favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/Favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/Favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/Favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <!-- FONT ICONS (FONT AWSOME)-->
+    <script
+      src="https://kit.fontawesome.com/f90a6542b3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQUERY   -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".mobile-navbar-btn").click(function () {
+          $("ul").toggleClass("show");
+        });
+        $("a").click(function () {
+          $("ul").removeClass("show");
+        });
+      });
+    </script>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left" data-aos="fade-right" data-aos-duration="3000">
+          <a href="/index.html " class="nav-logo">
+            <img
+              class="logo"
+              src="img/logo.png"
+              alt="logo"
+              padding-top="20%"
+              height="10%"
+              width="50%"
+          /></a>  
+        </div>
+        <div class="right"></div>
+        <ul class="nav-links">
+          <li>
+            <a
+              href="#Home"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="200"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#projects"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="400"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="500"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <div
+          class="mobile-navbar-btn"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+        >
+          <i
+            name="menu-icon"
+            class="fa-sharp fa-solid fa-bars"
+            style="color: rgb(194, 134, 247)"
+          ></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN WEBSITE -->
+    <main>
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <!-- HOME SECTION START -->
+      <section id="Home">
+        <div class="leftSection">
+          <div class="about-paragraph">
+            <span class="text-pink"> HI THERE! </span> <br />
+            My name is <span class="text-purple">Zeeshan</span>
+            <div>and I am passionate in</div>
+            <span id="element"></span>
+          </div>
+          <div
+            class="cv-btn-container"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <a href="media files/M.Zeeshan_React_Developer_Resume.pdf" download=""
+              ><button class="btn-cv">
+                Download CV <i class="fa-solid fa-download"></i></button
+            ></a>
+          </div>
+        </div>
+
+        <div class="rightSection" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="img/home.png" alt="home" />
+        </div>
+      </section>
+      <!-- HOME SECTION END -->
+
+      <!-- ABOUT SECTION START-->
+      <section id="about">
+        <div class="container">
+          <div class="about-heading">
+            <h1>about</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="second-section">
+          <div
+            class="left-content"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
+            <img src="img/about2.png" alt="about" />
+          </div>
+          <div class="right-content">
+            <div
+              class="about-paragraph2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <h1 class="heading">
+                Introduction: <br />
+                <span class="text-pink">Getting to know</span><br />
+                <span class="text-pink">me</span>
+              </h1>
+              <br />
+              <p class="text-light">
+                Hello there ! I am Muhammad Zeeshan, a dedicated software engineer
+                with a passion for front-end, React development & UI/UX designing. My
+                journey in the world of technology has been a thrilling
+                adventure, fueled by my passion for creating captivating and
+                user-friendly web experiences. From crafting pixel-perfect
+                designs to writing clean and efficient code, I find immense joy
+                in every step of the development process. My mission is to build
+                digital solutions that not only meet user needs but also inspire
+                and engage. Welcome to my corner of the web, where innovation
+                and creativity converge to shape the future of digital
+                interactions. Let's connect and explore the possibilities
+                together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT SECTION END-->
+      <!-- PROJECTS SECTION START -->
+      <section id="projects">
+        <div class="container">
+          <div class="about-heading">
+            <h1>projects</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div
+            class="third-section"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-delay="100"
+          >
+            <div class="project-image">
+              <img src="img/youtube.jpg" />
+            </div>
+            <h2 class="project-title">Youtube-Clone</h2>
+            <small class="project-desc"
+              >The YouTube clone is a React JS and Material UI-based web app replicating YouTube's features and design. It offers seamless browsing, searching, and video watching with a responsive layout.</small
+            >
+            <div class="project-link">
+              <button class="btn btn--icon">
+                <span class="icon-wrapper">
+                  <a href="https://zeshan124.github.io/youtube-clone/"
+                  target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="third-section"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-delay="200"
+          >
+            <div class="project-image">
+              <img src="img/ui project.jpg" />
+            </div>
+            <h2 class="project-title">UI UX Designs</h2>
+            <small class="project-desc"
+              >Explore my UI/UX design portfolio showcasing User Interfaces of
+              mobile and web application, brochures , stunning glass card
+              effects user flow optimization for a seamless user experience.
+            </small>
+            <div class="project-link">
+              <button class="btn btn--icon">
+                <span class="icon-wrapper">
+                  <a
+                    href="https://drive.google.com/drive/folders/1aYAqnCvuMBONPbQodJFeKcEsxXXu1-4i"
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="third-section"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          >
+            <div class="project-image">
+              <img src="img/finance.png" />
+
+            </div>
+            <h2 class="project-title">Arwentech Network company</h2>
+            <small class="project-desc"
+              >ArwenTech's online presence epitomized React-powered website embodies our innovation and expertise, showcasing our services and achievements dynamically.</small
+            >
+            <div class="project-link">
+              <button class="btn btn--icon">
+                <span class="icon-wrapper">
+                  <a
+                    href="https://arwentech.netlify.app/"
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="third-section"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+            data-aos-delay="400"
+          >
+
+          <div class="project-image">
+            <img src="img/netflix.jpg" />
+
+          </div>
+          <h2 class="project-title">Netflix-Clone</h2>
+          <small class="project-desc"
+            >Dive yourself in a sleek Netflix replica build with React.js and Firebase.This clone mirrors the authentic Netflix UI, offering smooth navigation, user auth, and real-time updates. Access on-demand entertainment with precision engineering.</small
+          >
+          <div class="project-link">
+            <button class="btn btn--icon">
+              <span class="icon-wrapper">
+                <a
+                  href="https://netflix-react-8ac80.web.app/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="third-section"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-delay="400"
+        >
+
+          <div class="project-image">
+            <img src="img/ecommerce.jpg" />
+
+          </div>
+          <h2 class="project-title">Ecommerce website</h2>
+          <small class="project-desc"
+            >Experience effortless shopping with our React.js-powered E-commerce platform. Enjoy simplicity, style, and security while browsing our curated collection.</small
+          >
+          <div class="project-link">
+            <button class="btn btn--icon">
+              <span class="icon-wrapper">
+                <a
+                  href="https://zeshan124.github.io/E-Commerce-website/"
+                  target="_blank"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="third-section"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-delay="400"
+        >
+
+        <div class="project-image">
+          <img src="img/fitness.JPG" />
+
+        </div>
+        <h2 class="project-title">Fitness website</h2>
+        <small class="project-desc"
+          >Welcome to BodyForge, your go-to for fitness and well-being. Get expert advice, inspiring workouts, nutritional guidance, and a supportive community—all in one place. Explore workouts, discover recipes, and stay motivated, Join us.</small
+        >
+        <div class="project-link">
+          <button class="btn btn--icon">
+            <span class="icon-wrapper">
+              <a
+                href="https://zeshan124.github.io/FitnessWebsite/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div
+      class="third-section"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+      data-aos-delay="400"
+      >
+
+          <div class="project-image">
+            <img src="img/travel.png" />
+
+          </div>
+          <h2 class="project-title">Travel website</h2>
+            <small class="project-desc"
+              >"Enjoy seamless travel with our carefully curated itineraries, effortlessly blending exploration and relaxation. Customize your journey easily through our user-friendly platform, making travel planning a delightful experience."</small
+            >
+            <div class="project-link">
+              <button class="btn btn--icon">
+                <span class="icon-wrapper">
+                  <a
+                    href="https://zeshan124.github.io/Travel-website/"
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="third-section"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+            data-aos-delay="400"
+          >
+
+          <div class="project-image">
+            <img src="img/banking.jpg" />
+        </div>
+        <h2 class="project-title">Banking System Application</h2>
+        <small class="project-desc">
+            In this Project, I've developed a user-friendly web application using HTML, CSS, Bootstrap, JavaScript, PHP, and MySql to simulate essential banking operations.
+        </small>
+        
+            <div class="project-link">
+              <button class="btn btn--icon">
+                <span class="icon-wrapper">
+                  <a
+                    href="https://github.com/Zeshan124/Banking-Application"
+                    target="_blank"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION START -->
+
+      <section id="skills">
+        <div class="container">
+          <div class="about-heading">
+            <h1>Skills</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-delay="100"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/html-5--v1.png"
+              alt="html-5--v1"
+            />
+            <h2 class="skill-title">html</h2>
+          </div>
+
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="200"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/css3.png"
+              alt="css3"
+            />
+            <h2 class="skill-title">css</h2>
+          </div>
+
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="300"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/javascript--v1.png"
+              alt="javascript--v1"
+            />
+            <h2 class="skill-title">js</h2>
+          </div>
+
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="400"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/react-native.png"
+              alt="react-native"
+            />
+            <h2 class="skill-title">React</h2>
+          </div>
+
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="500"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/python--v1.png"
+              alt="python--v1"
+            />
+            <h2 class="skill-title">Python</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="600"
+          >
+            <i class="fa-solid fa-database"></i>
+            <h2 class="skill-title">sql</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="700"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/000000/tailwindcss.png"
+              alt="bootstrap"
+            />
+            <h2 class="skill-title">Tailwindcss</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="800"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/figma--v1.png"
+              alt="figma--v1"
+            />
+            <h2 class="skill-title">figma</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="900"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/firebase.png"
+              alt="firebase"
+            />
+            <h2 class="skill-title">firebase</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="1000"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/visual-studio-code-2019.png"
+              alt="visual-studio-code-2019"
+            />
+            <h2 class="skill-title">vs code</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="1100"
+          >
+            <i class="fa-brands fa-github" style="color: #e3b3e7"></i>
+            <h2 class="skill-title">git</h2>
+          </div>
+          <div
+            class="fourth-section"
+            data-aos="fade-up"
+            data-aos-duration="300"
+            data-aos-delay="1200"
+          >
+            <img
+              width="96"
+              height="96"
+              src="https://img.icons8.com/color/96/000000/mongodb.png"
+              alt="django"
+            />
+            <h2 class="skill-title">mongoDB</h2>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS SECTION END -->
+
+      <!-- CONTACT SECTION STARTS -->
+
+      <section id="contact">
+        <div class="container">
+          <div class="about-heading">
+            <h1>Contact</h1>
+            <div class="line"></div>
+          </div>
+          <div class="fifth-section">
+            <div class="cont-leftSection">
+              <div class="contact-para">
+                <h1
+                  class="heading-contact"
+                  data-aos="fade-up-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="100"
+                >
+                  <span class="text-pink-contact">lets connect with me</span
+                  ><br />
+                </h1>
+                <p
+                  class="text-light"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  data-aos-delay="200"
+                >
+                  "Hey there! Thank you for visiting my portfolio, and I
+                  appreciate your interest in my work.If you have any questions
+                  or would like to discuss potential projects, please feel free
+                  to contact with me. Looking Forward to Connecting with you."
+                </p>
+                <div
+                  class="btn-container"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  data-aos-delay="300"
+                >
+                  <a onclick="window.open('mailto:raeeszeeshan4@gmail.com');"
+                    ><button class="btn-contact" data="Contact"></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="cont-rightSection">
+              <div
+                class="image-container"
+                data-aos="fade-left"
+                data-aos-duration="2000"
+              >
+                <img src="img/contact.png" class="girl" />
+                <img src="img/elements.png" class="elements" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================== Footer Section START =================== -->
+      <footer>
+        <div class="footer-container">
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/muhammad-zeeshan-635190162"
+            target="_blank"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="100">
+            <i class="fa-brands fa-linkedin"></i></a>
+
+            <a
+              href="https://github.com/Zeshan124"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="200"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100008894671352"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="300"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/callzeeshanraees/"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="400"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://twitter.com/zeeshaann5"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+
+          <div class="footer-nav">
+            <ul>
+              <li>
+                <a
+                  href="#Home"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="100"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  data-aos-delay="200"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-delay="300"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-delay="400"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                  data-aos-delay="500"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- =================== Footer Ends =================== -->
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy; 2023; Designed By
+          <span class="text-pink2">Muhammad Zeeshan</span>
+        </p>
+      </div>
+      <!-- PROJECTS SECTION END -->
+      <!-- TYPED JS (Load Animation) -->
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+      <script>
+        var typed = new Typed("#element", {
+          strings: [
+            "Web Development",
+            "UI/UX Designing.",
+            "React Development",
+            "Software Development.",
+          ],
+          typeSpeed: 100,
+        });
+      </script>
+      <!-- initializing AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </main>
+  </body>
+</html>
